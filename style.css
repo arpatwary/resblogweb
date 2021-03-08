@@ -1,0 +1,230 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+.full_web{
+            width: 80%;
+            height: auto;
+            border: 1px solid black;
+            margin: 0 auto;
+            }
+.firstRoom{
+            background:blueviolet;
+            height: 50px;
+            width: 99%;
+            padding: 10px 5px;
+        }
+.logo{
+            width: 40%;
+            float: left;
+            padding: 10px 10px;
+            color:wheat;
+            }
+.banner{
+            width: 50%;
+            float: right;
+        }
+.secondRoom{
+    background:rgb(58, 90, 9);
+   
+}
+.menu ul{
+    height:37px;
+  
+}
+.menu ul li{
+    display: inline-block;
+    padding: 10px 0px;
+    border-left: 1px solid rgb(167, 154, 154);
+    margin-right: -4px;
+}
+.menu ul li:last-child{
+    border-right: 1px solid rgb(167, 154, 154);
+}
+.menu ul li a{
+    text-decoration: none;
+    color:white;
+    padding: 10px 8px;
+}
+.menu ul li a:hover{
+    background: rgb(14, 180, 56);
+}
+/* Starting of slider */
+.slidingRoom{
+    width: 100%;
+    background:rgb(241, 95, 180);
+    height: auto;
+    /* margin-top: 30 px; */
+}
+.slidingRoom h1{
+    color: white;
+    padding: 60px 0px;
+    margin: 0px 50px;
+    text-align: center;
+    }
+/* End of slider */
+
+/* Starting of Post Room */
+.post_room{
+    width:100%;
+    /* background: rgb(102, 90, 44); */
+    height: 800px;
+    /* border: 1px solid black; */
+    
+}
+.content{
+    background: cyan;
+    width: 60%;
+    height: 400px;
+    float: left;
+}
+.content img{
+    height: 200 px;
+    width: 38%;
+    background: blue;
+    padding: 10px 10px;
+    float:left;
+    margin: 10px 15px;
+    border: 1px solid yellow;
+}
+.content p{
+    padding: 10px 15px;
+    text-align: justify;
+    font-size: 18px;
+    line-height: 22px;
+}
+.readmore a{
+    text-decoration: none;
+    color:rgb(247, 72, 72);
+    border: 1px solid white;
+    background: yellow;
+    border-radius: 10px;
+    padding: 2px 3px;
+    float:right;
+    margin-right: 10px;
+}
+.readmore a:hover{
+    background:green;
+}
+.sidebar{
+    background: rgb(16, 56, 143);
+    width: 37%;
+    height: auto;
+    float: right;
+
+     
+}
+.sidebar-content h2{
+    color: white;
+    background: rgb(33, 201, 11);
+    width: 80%;
+    text-align: left;
+    border: 1px solid red;
+    text-align: center;
+    margin-left: -25px;
+
+}
+.sidebar-content{
+    padding-left: 25px;
+    padding-top: 5px;
+    
+}
+/* .sidebar li{
+    padding-left: 10px;
+} */
+.sidebar-content ul li {
+    padding: 10px 10px;
+}
+.sidebar-content a{
+    text-decoration: none;
+    color:white;
+    font-size: 18px;
+}
+.sidebar-content a:hover{
+text-decoration: underline;
+}
+.fifth-room{
+    clear:right;
+    display: inline-flex;
+    background: rgb(206, 109, 190);
+    margin-top: 20px;
+    padding-left: 20px;
+    padding-top: 10px;
+}
+.news h2{
+    color:white;
+    border-bottom: 1px solid rgb(160, 226, 37);
+    width: 70%;
+    text-align: center;
+    margin-bottom: 10px;
+}
+
+.news ul li{
+padding-bottom: 10px;
+}
+.news ul li a{
+    color:black;
+    font-size: 18px;
+}
+.news ul li a:hover{
+    text-decoration: none;
+}
+.sixth-part{
+    background: wheat;
+    text-align: center;
+}
+/* Start of about us */
+.about-room{
+    border:5px solid rgb(214, 13, 187);
+    border-radius: 10px;
+    background: rgb(97, 189, 97);
+    margin: 0 auto;
+    width: 90%;
+    margin-top: 30px;
+    padding-bottom: 10px;
+}
+.about-room h1{
+    color:rgb(202, 41, 41);
+    border: 1px solid blue;
+    border-radius: 5px;
+    margin: 10px 5px;
+    text-align: center;
+}
+.about-room p{
+    padding: 10px 10px;
+    text-align: justify;
+    font-size: 18px;
+    line-height: 35px;
+}
+.form{
+    margin: 0 auto;
+    width: 35%;
+    border: 1px solid white;
+    padding: 15px 25px;
+    border-radius: 1px 70px 1px;
+}
+label{
+    color:white;
+    font-size: 18px;
+}
+input{
+    width:100%;
+    background:rgb(247, 250, 61);
+    padding: 5px 5px;
+    border:2px solid red;
+    border-radius: 15px;
+}
+textarea{
+    width:100%;
+    background:rgb(247, 250, 61);
+    padding: 5px 5px;
+    border:2px solid red;
+    border-radius: 15px;   
+}
+.submit{
+    width:50%;
+    font-size: 18px;
+}
+.submit:hover{
+    background: rgb(204, 32, 167);
+}
